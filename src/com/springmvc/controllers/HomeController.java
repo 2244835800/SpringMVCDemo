@@ -22,7 +22,7 @@ public class HomeController {
 		return "index2";
 		
 	}
-	
+		
 	@RequestMapping(value="/")
 	public String defaultIndex(){
 		return "index3";
